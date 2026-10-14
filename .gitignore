@@ -1,0 +1,26 @@
+# Local secrets and inputs
+.env
+.env.*
+*.env
+*token*
+# Licensed data and generated artifacts
+data/
+submissions/
+bundles/
+*.csv
+*.json
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.mp4
+*.zip
+*.pdf
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+.DS_Store
